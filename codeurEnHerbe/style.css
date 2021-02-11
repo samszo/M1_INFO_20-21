@@ -1,0 +1,82 @@
+body {
+	color: white;
+	background-color: #1A1B1A;
+	font-family: Arial;
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+.header-left {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+	color: #94B5EC;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.coordinates {
+	display: flex;
+	font-size: 25px;
+	flex-direction: column;
+}
+
+.photo {
+	width: 200px;
+	border: 1px solid grey;
+}
+
+.cv-element {
+	font-size: 30px;
+}
+
+.first-element {
+	margin-top: 30px;
+}
+
+.subtitle {
+	width: 100%;
+	background-color: #313332;
+	padding: 10px;
+}
+
+.element-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px 0 20px 0;
+}
+
+.element-studies, .element-skills {
+	height: 180px;
+}
+
+.element-experiences {
+	height: 350px;
+}
+
+.content-row {
+	font-size: 25px;
+}
+
+.content-bold {
+	font-weight: bolder;
+	color: #94B5EC;
+}
+
+.cfa-logo {
+	width: 200px;
+	margin-left: 80%;
+}
