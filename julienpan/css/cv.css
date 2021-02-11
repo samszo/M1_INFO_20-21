@@ -1,0 +1,69 @@
+.page{
+    width: 780px;
+    margin: auto; /* Après un width centre automatiquement */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.titre {
+    width: 600px;
+    margin:auto;
+    color:red;
+    font-size: 50px;
+    
+
+}
+
+.infophoto {
+    height: 250px;
+    margin-left: 10px;
+}
+
+.info {
+    float: left; /* flotte à gauche */
+}
+
+.photo {
+    float: right;
+    margin-right: 10px;
+}
+
+.section {
+    margin-bottom:70 px; /* Marge du bas pour espace */
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.gauche {
+    float: left;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    
+}
+
+.droite {
+    margin-left: 120px; /* float peut poser pb */
+}
+
+.titre-section {
+    font-size : 28px;
+    color:red;
+    font-weight:bold;
+    border-bottom: 3px solid rgb(177, 70, 70);
+    
+}
+
+#sub {
+    color:rgb(8, 8, 8);
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+#interet {
+    font-size: 16px;
+    color:black;
+    
+}
