@@ -20,3 +20,12 @@ body {
 .icon {
     width: 7%;
 }
+
+@media screen and (max-width: 576px) {
+   .container-sm {
+       margin-left: 6% !important;
+   }
+   .my-head {
+       width: 100% !important;
+   }
+  }
