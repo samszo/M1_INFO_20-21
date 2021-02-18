@@ -1,0 +1,31 @@
+.grand_line {
+    margin-top: 2%;
+}
+.row {
+    width: 100%;
+}
+.medium_line {
+    margin-top: 1%;
+}
+.title {
+    border-bottom: solid #287eed 2px;
+}
+.padd {
+    padding-left: 2%;
+}
+body {
+    background-color: #161617!important;
+    color: #c2c2c2 !important;
+}
+.icon {
+    width: 7%;
+}
+
+@media screen and (max-width: 576px) {
+   .container-sm {
+       margin-left: 6% !important;
+   }
+   .my-head {
+       width: 100% !important;
+   }
+  }
