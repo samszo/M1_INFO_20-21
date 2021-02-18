@@ -6,6 +6,8 @@ body {
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	min-width: 446px;
+	min-height: 1500px;
 }
 
 .header {
@@ -57,14 +59,6 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 20px 0 20px 0;
-}
-
-.element-studies, .element-skills {
-	height: 180px;
-}
-
-.element-experiences {
-	height: 350px;
 }
 
 .content-row {
