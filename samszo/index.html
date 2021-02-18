@@ -9,7 +9,7 @@
     <style>
         iframe {
             height: 600px;
-            width: 600px;
+            width: 100%;
         }
     </style>
 
@@ -23,8 +23,9 @@
     d3.csv(urlCSV).then(function(data) {
         //console.log("csv récupéré");
         console.log(data);
-        let divEtu = d3.select("#tabEtu").selectAll('div').data(data).enter().append('div')
-            .html(d=>d['Votre prénom']+' '+d['Votre nom']);
+        let divEtu = d3.select("#tabEtu").selectAll('div').data(data).enter().append('div');
+        divEtu.append('h2').html(d=>d['Votre prénom']+' '+d['Votre nom']);
+        divEtu.append('br');
         divEtu.append('iframe').attr('src',d=>{
             let url = "https://samszo.github.io/M1_INFO_20-21/"+d['Votre compte GitHub']+'/cv.html';
             return url;
