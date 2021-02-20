@@ -21,13 +21,13 @@
 
 ![VT_img0](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img0.png)  
 
- *Figure 2:*  **Liens:**  sfgfgsfgsfgsfg
+ *Figure 2:*  **Liens:**  
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img1.png)  
- *Figure 3:*  **Lines de bulles:**  fsdfsdfsdfsdfsdfsdf
+ *Figure 3:*  **Lines de bulles:** 
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img2.png)  
-*Figure 4:*  **Tendances:***  sdfsdfsdfsdfsdf
+*Figure 4:*  **Tendances:**
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img3.png)
 
