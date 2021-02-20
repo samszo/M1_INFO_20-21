@@ -17,17 +17,17 @@
 
 
 
-**Cirrus:** sdflksdmfsldmfksdmlfksd
+*Figure 1:*  **Cirrus:** 
 
 ![VT_img0](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img0.png)  
 
-**Liens:**  sfgfgsfgsfgsfg
+ *Figure 2:*  **Liens:**  sfgfgsfgsfgsfg
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img1.png)  
-**Lines de bulles:**  fsdfsdfsdfsdfsdfsdf
+ *Figure 3:*  **Lines de bulles:**  fsdfsdfsdfsdfsdfsdf
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img2.png)  
-**Tendances:***  sdfsdfsdfsdfsdf
+*Figure 4:*  **Tendances:***  sdfsdfsdfsdfsdf
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img3.png)
 
