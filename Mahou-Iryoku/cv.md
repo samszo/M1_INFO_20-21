@@ -16,18 +16,18 @@
 
 **Figures graphiques**
 
-Cirrus
+**Cirrus**
 
 ![Cirrus](https://user-images.githubusercontent.com/73304946/108704307-1ce8ac80-750c-11eb-81b0-cd126ab50fd7.png)
 
-Tendances
+**Tendances**
 
 ![Tendances](https://user-images.githubusercontent.com/73304946/108705306-6ab1e480-750d-11eb-9ac7-7e824a02fd1f.PNG)
 
-Bulles
+**Bulles**
 
 ![Bulles](https://user-images.githubusercontent.com/73304946/108705303-6ab1e480-750d-11eb-8fd9-a14736e4c32e.PNG)
 
-Liens
+**Liens**
 
 ![Liens](https://user-images.githubusercontent.com/73304946/108704941-f5461400-750c-11eb-85eb-b4c8563da15f.png)
