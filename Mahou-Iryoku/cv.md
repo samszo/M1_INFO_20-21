@@ -21,3 +21,11 @@ Cirrus
 Tendances
 
 ![Tendances](https://user-images.githubusercontent.com/73304946/108704738-b912b380-750c-11eb-9401-62d0181817a8.png)
+
+Bulles
+
+![Bulles](https://user-images.githubusercontent.com/73304946/108704931-f37c5080-750c-11eb-9df4-4f6161d64a97.png)
+
+Liens
+
+![Liens](https://user-images.githubusercontent.com/73304946/108704941-f5461400-750c-11eb-85eb-b4c8563da15f.png)
