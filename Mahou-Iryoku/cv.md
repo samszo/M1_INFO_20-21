@@ -7,9 +7,12 @@
 ##Analyse du text-mining 
 
 *Ce corpus contient* **1** *document*, **313** *mots et* **206** *formes verbales uniques.* 
-*Densité du vocabulaire :* **0.658*
-*Moyenne des mots par phrase :* **313.0**
-*Mots les plus fréquents :* **d’une (8); 2019 (6); application (4); développement (4); informatique (4)**
+
+*Densité du vocabulaire* : **0.658*
+
+*Moyenne des mots par phrase* : **313.0**
+
+*Mots les plus fréquents* : **d’une (8); 2019 (6); application (4); développement (4); informatique (4)**
 
 ##Figures graphiques
 
