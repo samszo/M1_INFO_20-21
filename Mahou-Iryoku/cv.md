@@ -1,8 +1,8 @@
 ##Sources: 
 
-[CV TRAN Vicnent](https://mahou-iryoku.github.io/TRAN_Vincent/cv.html)
+[CV TRAN Vincent HTML](https://mahou-iryoku.github.io/TRAN_Vincent/cv.html)
 
-[Source Voyants Tools](https://voyant-tools.org/?corpus=9f092f8de15b7acac2bce02782536f56)
+[Voyants Tools](https://voyant-tools.org/?corpus=9f092f8de15b7acac2bce02782536f56)
 
 ##Analyse du text-mining 
 
