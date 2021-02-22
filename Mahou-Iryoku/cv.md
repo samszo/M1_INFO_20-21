@@ -8,7 +8,7 @@
 
 *Ce corpus contient* **1** *document*, **313** *mots et* **206** *formes verbales uniques.* 
 
-*Densité du vocabulaire* : **0.658*
+*Densité du vocabulaire* : **0.658**
 
 *Moyenne des mots par phrase* : **313.0**
 
