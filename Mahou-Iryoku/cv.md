@@ -15,5 +15,3 @@ Mots les plus fréquents : d’une (8); 2019 (6); application (4); développemen
 Figures graphiques
 
 ![Cirrus](https://user-images.githubusercontent.com/73304946/108704307-1ce8ac80-750c-11eb-81b0-cd126ab50fd7.png
-
-https://github.com/samszo/M1_INFO_20-21/issues/4#issue-813428384
