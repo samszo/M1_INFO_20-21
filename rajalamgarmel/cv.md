@@ -18,17 +18,17 @@ Mots les plus fréquents : **informatique (10); maroc (6); conception (4); déve
 
 *Figure 1:*  **Cirrus:**
 
-![alt text](https://github.com/samszo/M1_INFO_20-21/rajalamgarmel/images/Cirrus.png "Logo Title Text 1")
+![alt text](https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/images/Cirrus.png "Logo Title Text 1")
 
 *Figure 2:*  **Liens:**
 
-![alt text](https://github.com/samszo/M1_INFO_20-21/rajalamgarmel/images/Liens.png "Logo Title Text 1")  
+![alt text](https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/images/Liens.png "Logo Title Text 1")  
 *Figure 3:*  **Lines de bulles:**
 
-![alt text](https://github.com/samszo/M1_INFO_20-21/rajalamgarmel/images/Linesdebulles.png "Logo Title Text 1")  
+![alt text](https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/images/Linesdebulles.png "Logo Title Text 1")  
 *Figure 4:*  **Tendances:**
 
-![alt text](https://github.com/samszo/M1_INFO_20-21/rajalamgarmel/images/Tendances.png "Logo Title Text 1")
+![alt text](https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/images/Tendances.png "Logo Title Text 1")
 
 
 
