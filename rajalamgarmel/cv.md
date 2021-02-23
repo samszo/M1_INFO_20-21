@@ -1,7 +1,7 @@
 ## LAMGARMEL Raja : Etudiante en Master  1 Informatique 
 ### Mon CV : [CV-LAMGARMEL Raja](https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/cv.html)  
 
-### une version analysé de mon CV sur : [Voyant Tools corpus](https://voyant-tools.org/?corpus=56496cedbd3bf4cc43bf13f86aa42fa3)  
+### une version analysé de mon CV sur : [Voyant Tools corpus](https://voyant-tools.org/?https://voyant-tools.org/?corpus=ef7421f82a222312eda62381d470826a)  
 
 ## Détails de l'analyse du text-mining de mon CV :
 ### Résumé
