@@ -15,6 +15,6 @@ Il y a aussi des graphiques qui relie plusieurs mots ensemble qui montre que le 
 ![grappedetermes](https://github.com/samszo/M1_INFO_20-21/blob/main/julienpan/images/grappedetermes.png)
 ![liens](https://github.com/samszo/M1_INFO_20-21/blob/main/julienpan/images/liens.png)
 
-Cependant, les schémas ne démontre pas réellement la signification de ces liens qui sont parfois erroné. Elle ne met pas aussi en avant les acquis solides de notre CV mais affiche seulement le nombre de répétition du mot. 
+Cependant, les schémas ne démontre pas réellement la signification de ces liens qui sont parfois erroné. Elle ne met pas aussi en avant les acquis solides de notre CV mais affiche seulement le nombre de répétition du mot qui pourrait être vu comme une accentuation sur cette compétence.
 
 Le terme python est revenu plusieurs fois car c'est le  nombre de projets universitaires. Mais, ce n'est pas nécessairement le langage le plus acquis du CV.
