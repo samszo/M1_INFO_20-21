@@ -1,28 +1,33 @@
-<!DOCTYPE HTML>
-<!--
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-<head>
-<title>Cv Youssouf</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="assets/css/main.css" />
-<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-<a id="haut" class="main special"></a>
-</head>
-<body class="is-preload">
+## Liens
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 452px; height: 265px;' src='https://voyant-tools.org/tool/Cirrus/?corpus=496cedf3878ceb2d9af01ba8626e308f'></iframe>
+CV: https://samszo.github.io/M1_INFO_20-21/Youssoufyouss/cv.html
 
-</body>
-</html>
+Corpus Voyant Tools: https://voyant-tools.org/?corpus=496cedf3878ceb2d9af01ba8626e308f
+
+## Analyse text mining du CV
+
+**-Graphiques Voyant Tools:**
+
+**1/ Tendances**
+
+![tendancesVt](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/tendancesVt.png) 
+
+**2/ Liens**
+
+![liensVt](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/liensVt.png)  
+
+**3/ Cirrus**
+
+![](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/cirrusVt.png)  
+
+**-Résumé:**
+
+Ce corpus contient 1 document, 130 mots et 93 formes verbales uniques.
+
+Densité du vocabulaire: 0.715
+
+Moyenne des mots par phrase: 18.6
+
+Mots les plus fréquents: web (7); informatique (4); applications (3); design (3); développement (3)
+
 
