@@ -20,6 +20,9 @@
 
 ![Cirrus](https://user-images.githubusercontent.com/73304946/108704307-1ce8ac80-750c-11eb-81b0-cd126ab50fd7.png)
 
+*On constate que sur cette image grâce à l'outils de Voyants Tools, les mots clés les plus utilisés sont d'une, développement, application et informatique.
+Donc je m'intéresse beaucoup plus dans le domaine l'informatique au service de développement et d'application.*
+
 **Tendances**
 
 ![Tendances](https://user-images.githubusercontent.com/73304946/108705306-6ab1e480-750d-11eb-9ac7-7e824a02fd1f.PNG)
@@ -28,6 +31,10 @@
 
 ![Bulles](https://user-images.githubusercontent.com/73304946/108705303-6ab1e480-750d-11eb-8fd9-a14736e4c32e.PNG)
 
+*Sur les tendances et les bulles, on retrouve plusieurs de courbes pour connaître à quel endroit du mot sera le plus utilisé. On constate que le mot "d'une" est très utilisé vers la fin du CV.* 
+
 **Liens**
 
 ![Liens](https://user-images.githubusercontent.com/73304946/108704941-f5461400-750c-11eb-85eb-b4c8563da15f.png)
+
+**Ces schémas vont permettre de connaître des mots répétitives mais ces schémas ne déduit pas des erreurs particuliers dans le CV**. 
