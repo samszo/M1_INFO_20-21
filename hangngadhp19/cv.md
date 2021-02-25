@@ -1,10 +1,9 @@
 Nga NGUYEN  
 Etudiante en Master 1 Informatique
 ================================
-Mon CV [hangngadhp19](https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html){:target="_blank"}
-<a href="https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html" target="_blank">lien</a>
+Mon CV [hangngadhp19](https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html)
 
-Une version analysé de mon CV sur : [Voyant Tools corpus](https://voyant-tools.org/?corpus=af84ba16ce2eeecb2d751c17a7394416){:target="_blank"}
+Une version analysé de mon CV sur : [Voyant Tools corpus](https://voyant-tools.org/?corpus=af84ba16ce2eeecb2d751c17a7394416)
 
 Détails de l'analyse du text-mining de mon CV :
 ------------------------
