@@ -17,17 +17,22 @@
 
 
 
-**Cirrus:** sdflksdmfsldmfksdmlfksd
+*Figure 1:*  cette figure représente la taille des mots selon leurs fréqueces dans le cv (les mots les plus grand de taille sont les plus fréquants)  
 
-![VT_img0](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img0.png)  
+![VT_img0](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img0.png)
 
-**Liens:**  sfgfgsfgsfgsfg
 
+
+ *Figure 2:*   cette figure représente les différents liens entre les mots,notament les liens entre les mots les plus fréquents **Bleu** avec d'autres moins fréquants **orange**  
+ 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img1.png)  
-**Lines de bulles:**  fsdfsdfsdfsdfsdfsdf
 
-![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img2.png)  
-**Tendances:***  sdfsdfsdfsdfsdf
+
+
+ 
+
+
+*Figure 4:* ce gragh représente les tendances(fréquences relatives) des mots figurants dans le cv  
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img3.png)
 
