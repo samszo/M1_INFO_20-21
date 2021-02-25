@@ -32,7 +32,7 @@
  
 
 
-*Figure 4:* ce gragh représente les tendances des mots figurants dans le cv  
+*Figure 4:* ce gragh représente les tendances(fréquences relatives) des mots figurants dans le cv  
 
 ![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img3.png)
 
