@@ -37,4 +37,4 @@ Donc je m'intéresse beaucoup plus dans le domaine l'informatique au service de 
 
 ![Liens](https://user-images.githubusercontent.com/73304946/108704941-f5461400-750c-11eb-85eb-b4c8563da15f.png)
 
-**Ces schémas vont permettre de connaître des mots répétitives mais ces schémas ne déduit pas des erreurs particuliers dans le CV** 
+**Ces schémas vont permettre de connaître des mots répétitives mais ces schémas ne déduit pas des erreurs particuliers dans le CV**. 
