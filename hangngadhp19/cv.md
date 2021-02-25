@@ -16,21 +16,21 @@ Most frequent words in the corpus: php (6); projet (6); lien (5); paris (5); cod
 
 ### Figures graphiques:
 
-** Figure 1: Cirrus: **
+**Figure 1: Cirrus:**
 
 ![](images/cirrus.png)
   
 
-** Figure 2: Liens: **
+**Figure 2: Liens:**
 
 ![](images/liens.png)
   
 
-** Figure 3: Lines de bulles: **
+**Figure 3: Lines de bulles:**
 
 ![](images/bulles.png)
   
 
-** Figure 4: Tendances: **
+**Figure 4: Tendances:**
 
 ![](images/tendances.png)
