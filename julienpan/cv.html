@@ -2,9 +2,15 @@
 <head>
     <title> CV PAN Julien</title>
     <meta charset="UTF-8"/>
+    <meta name ="author" content = "PAN Julien">
+    <meta name ="description" content = "CV personnel PAN Julien">
+    <meta name ="keywords" content = "PAN, Julien, resume, CV, universtité, Paris, computer science, student, alternance, stage, etudiant, experience">
+    <meta name ="website" content = "https://github.com/julienpan">
+    <meta name ="cv-website" content = "https://julienpan.github.io/CV/">
     <link rel = "stylesheet" href = "css/cv.css"/>
+</head>
     <body>
-        <div class = "btn">
+        <div itemscope itemtype = "button" class = "btn">
             <ul>
                 <li><a href ="#formation">FORMATIONS</a></li><br>
                 <li><a href ="#projet">PROJETS UNIVERSITAIRES</a></li><br>
@@ -15,12 +21,12 @@
 
             </ul>
         </div>
-        <div class = "page">
+        <div itemscope itemtype = "CV text" class = "page">
             <div class = "titre">
                 <h2>STAGE DEVELOPPEUR WEB</h2>
             </div>
             <div class = "infophoto">
-                <div class = "info">
+                <div itemprop = "description personel" class = "info">
                     <p><strong>PAN Julien</strong><br/>
                     09/12/1999, 20 ans<br/>
                     Bobigny, France<br/></p>
@@ -31,11 +37,11 @@
                         LinkedIn : julien-pan-717909169</p>
                     </div>
                 </div>
-                <div class = "photo">
+                <div itemprop = "photo" class = "photo">
                     <img src = "images/photo.png" alt = "Photo CV PAN Julien"/>
                 </div>
             </div>
-            <div class = "section">
+            <div itemprop = "formation" class = "section">
                 <div class = "titre-section">
                     <div id = "formation">
                         <h2>FORMATION</h2>
@@ -52,7 +58,7 @@
                 </div>
             </div>
             <br/>
-            <div class = "section">
+            <div itemprop = "projet universitaire" class = "section">
                 <div class = "titre-section">
                     <div id = "projet"><h2>PROJETS UNIVERSITAIRES</h2></div>
                 </div>
@@ -81,14 +87,14 @@
                 </div>
             </div>
 
-            <div class = "section">
+            <div itemprop = "demo" class = "section">
                 <div class = "titre-section">
                     <div id = "demo"><h2>MES DEMOS</h2></div>
                 </div>
                 
                 <p id = "sub"><strong>GitHub</strong> : julienpan</p>
             </div>
-            <div class = "section">
+            <div itemprop = "experience" class = "section">
                 <div class = "titre-section">
                     <div id = "exp"><h2>EXPERIENCE PROFESSIONNELLE</h2></div>
                 </div>
@@ -99,7 +105,7 @@
             </div>
 
             
-            <div class = "section">
+            <div itemprop = "competences" class = "section">
                 <div class = "titre-section">
                     <div id = "skill"><h2>COMPETENCES</h2></div>
                 </div>
@@ -112,7 +118,7 @@
                 Chinois - Intermédiaire</p>
             </div>
 
-            <div class = "section">
+            <div itemprop = "centres d'interet" class = "section">
                 <div class = "titre-section">
                     <div id ="hobby"><h2>CENTRES D'INTERETS</h2></div>
                 <div/>
@@ -125,4 +131,3 @@
 
         </div>
     </body>
-</head>
