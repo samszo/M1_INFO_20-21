@@ -1,80 +1,34 @@
-  Resume 
-
-![Nga Nguyen](images/image.jpg)
-
 Nga NGUYEN  
-Developpeur Web PHP
+Etudiante en Master 1 Informatique
 ================================
+Mon CV [hangngadhp19](https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html){:target="_blank"}
+<a href="https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html" target="_blank">lien</a>
 
-* 11 rue Princesse 75006 Paris
-* hangngadhp19@gmail.com
-* +33 7 87 04 35 64
+Une version analysé de mon CV sur : [Voyant Tools corpus](https://voyant-tools.org/?corpus=af84ba16ce2eeecb2d751c17a7394416){:target="_blank"}
 
-* [![Téléchargez la version pdf](images/icn-save.jpg)](# "Télécharger .pdf")
-* ![](images/icn-print.jpg)
-* [![](images/icn-contact.jpg)](# "Contactez moi")
-* [![](images/icn-twitter.jpg)](# "Suis moi sur Twitter")
-* [![](images/icn-facebook.jpg)](# "Mon profil Facebook")
-
-RESUME DE QUALIFICATIONS
+Détails de l'analyse du text-mining de mon CV :
 ------------------------
+**Résumé:**
 
-Plus de 3 ans d'expérience dans les applications Web PHP. Expérience de la mise en œuvre et des tests d'application Web. Expérience de la programmation des objets orientés. Connaissance du modèle de conception MVC.
+This corpus has 1 document with 264 total words and 162 unique word forms. Created now.
+Vocabulary Density: 0.614
+Average Words Per Sentence: 26.4
+Most frequent words in the corpus: php (6); projet (6); lien (5); paris (5); code (4)
 
-FORMATION
----------
+**Figures graphiques:**
 
-### Sep 2020 - Présent
+### Figure 1: Cirrus:
 
-UNIVERSITÉ PARIS 8 À PARIS, FRANCE  
-_SPÉCIALITÉ: M1 INFORMATIQUE_
+![](images/cirrus.png)
 
-### Sep 2003 - Jun 2006
+### Figure 2: Liens:
 
-UNIVERSITÉ DES TRANSPORTS ET DES COMMUNICATIONS DE HO CHI MINH VILLE, VIETNAM  
-_SPÉCIALITÉ: TECHNOLOGIE D’INFORMATION_
+![](images/liens.png)
 
-EXPERIENCE PROFESSIONNELLE
---------------------------
+### Figure 3: Lines de bulles:
 
-### Sep 2020 - Présent
+![](images/bulles.png)
 
-UNIVERSITÉ PARIS 8 À PARIS - FRANCE  
-_Étudiant Master 1 Informatique_
+### Figure 4: Tendances:
 
-* Projet **Swift 5 (IOS)** \- Xcode 12.3 et simulateur iPod touch (7th génération): Gestion de comptes bancaires. Le lien gitLab qui permet d'obtenir le code source [ici](https://gitlab.com/nguyenthihangnga/ios-swift)
-* Projet **Apprentissage**: Écrire un algorithme SOM avec des données d'iris (langage de programmation C). Le lien gitLab qui permet d'obtenir le code source [ici](https://gitlab.com/nguyenthihangnga/appentissage)
-* Projet **HTML & CSS**: Créer un CV avec html et css. Le lien gitLab qui permet d'obtenir le code source [ici](https://gitlab.com/nguyenthihangnga/cv_html_css.git)
-
-### Jun 2015 - Août 2020
-
-SOCIÉTÉ EVOLABLEASIA - JAPON  
-_Développeur senior PHP_
-
-* Projet: Système interne. Prendre en charge de la vérification et de la fixation des données et la source du code en cas de problèmes liés à l'envoi de ressources humaines.
-* Projet: Page de recrutement pour l'entreprise et le profil de l'entreprise: Utilisez le framework wordpress [lien](https://jobs.hybrid-technologies.vn)
-* Projet: Horse race: changer PHP 4 CodeIgniter -> PHP 5 Laravel framework [lien](https://www.collabo-n.com)
-
-COMPÉTENCES TECHNIQUES
-----------------------
-
-### Connaissance du logiciel
-
-* Photoshop
-* Illustrator
-* InDesign
-* Flash
-* Fireworks
-* Dreamweaver
-* After Effects
-* Cinema 4D
-* Maya
-
-### Langages
-
-* CSS/XHTML
-* PHP
-* JavaScript
-* IOS
-* Android
-* Python
+![](images/tendances.png)
