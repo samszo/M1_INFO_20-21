@@ -13,11 +13,11 @@ Corpus Voyant Tools: https://voyant-tools.org/?corpus=496cedf3878ceb2d9af01ba862
 
 **1/ Tendances**
 
-![alt Text](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/tendancesVt.png "Tendances Voyant Tools") 
+![alt Text](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/ccc.png "Tendances Voyant Tools") 
 
 **2/ Liens**
 
-![alt Text](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/liensVt.png "Liens Voyant Tools")
+![alt Text](https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/images/hhh.png "Liens Voyant Tools")
 
 **3/ Cirrus**
 
