@@ -17,4 +17,4 @@ L'analyse présente aussi un tableau présentant les termes venant avant et apr�
 
 ![alt text](./images/tableau.png "Title")
 
-Dans l'ensemble, l'analyse fournit par la plateforme n'est aps capbable de comprendre des concepts depuis mon document, elle présente donc les mots et enchainements utilisés.
+Dans l'ensemble, l'analyse fournit par la plateforme n'est pas capbable de comprendre des concepts depuis mon document, elle présente donc les mots et enchainements utilisés.
