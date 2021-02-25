@@ -10,27 +10,30 @@ Détails de l'analyse du text-mining de mon CV :
 ### Résumé
 
 This corpus has 1 document with 264 total words and 162 unique word forms. Created now.  
-Vocabulary Density: 0.614. 
-Average Words Per Sentence: 26.4. 
+
+Vocabulary Density: 0.614.  
+
+Average Words Per Sentence: 26.4.  
+
 Most frequent words in the corpus: php (6); projet (6); lien (5); paris (5); code (4)
 
 ### Figures graphiques:
 
-**Figure 1: Cirrus:**
+**Figure 1: Cirrus**
 
 ![](images/cirrus.png)
   
 
-**Figure 2: Liens:**
+**Figure 2: Liens**
 
 ![](images/liens.png)
   
 
-**Figure 3: Lines de bulles:**
+**Figure 3: Lines de bulles**
 
 ![](images/bulles.png)
   
 
-**Figure 4: Tendances:**
+**Figure 4: Tendances**
 
 ![](images/tendances.png)
