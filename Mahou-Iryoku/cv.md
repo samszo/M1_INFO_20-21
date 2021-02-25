@@ -20,8 +20,8 @@
 
 ![Cirrus](https://user-images.githubusercontent.com/73304946/108704307-1ce8ac80-750c-11eb-81b0-cd126ab50fd7.png)
 
-*On constate que sur cette image grâce à l'outils de Voyants Tools, les mots clés les plus utilisés sont d'une,développement, application et informatique.*
-Donc je m'interesse beaucoup plus dans le domaine l'informatique au service de développement et d'application. *
+*On constate que sur cette image grâce à l'outils de Voyants Tools, les mots clés les plus utilisés sont d'une,développement, application et informatique.
+Donc je m'interesse beaucoup plus dans le domaine l'informatique au service de développement et d'application.*
 
 **Tendances**
 
@@ -37,4 +37,4 @@ Donc je m'interesse beaucoup plus dans le domaine l'informatique au service de d
 
 ![Liens](https://user-images.githubusercontent.com/73304946/108704941-f5461400-750c-11eb-85eb-b4c8563da15f.png)
 
-*Ces shémas vont permettre de connaître des mots répétives  mais ces schémas ne déduit pas des erreurs particuliers* 
+**Ces shémas vont permettre de connaître des mots répétives  mais ces schémas ne déduit pas des erreurs particuliers** 
