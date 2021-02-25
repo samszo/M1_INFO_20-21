@@ -8,7 +8,7 @@ L'outils Voyant Tools permet d'analyser les mots de la page donnée en fonction 
 
 ![vt_mot](https://github.com/samszo/M1_INFO_20-21/blob/main/julienpan/images/vt_mot.png)
 
-Sur l'image, nous pouvons voir les mots les plus utilisés sur le CV tels que Python, année, informatique, swift, etc...
+Sur l'image, nous pouvons voir les mots les plus utilisés sur le CV tels que Python, année, informatique, swift, etc... On peut interprété que Python a été l'un des mots les plus appuyé sur l'outil ainsi que les années d'informatique en université.
 
 Il y a aussi des graphiques qui relie plusieurs mots ensemble qui montre que le mot a été utilisé dans le même contexte.
 
