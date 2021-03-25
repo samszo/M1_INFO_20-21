@@ -20,7 +20,7 @@ exp:Experience a rdfs:Class ;
 exp:poste a rdf:Property ;
     rdfs:label "Poste" ;
     rdfs:domain o:Resource ;
-    rdfs:isDefineBy exp: .
+    vs:term_status "experimental" .
 
 skills:Skills a rdfs:Class ;
     rdfs:label "Competence" ;
@@ -30,4 +30,4 @@ skills:Skills a rdfs:Class ;
 skills:Language a rdf:Property ;
     rdfs:label "Langue" ;
     rdfs:domain o:Resource ;
-    rdfs:isDefineBy skills: .
+    vs:term_status "experimental" .
