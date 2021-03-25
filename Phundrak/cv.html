@@ -33,25 +33,40 @@
         <!-- End Matomo Code -->
     </head>
 
-    <body>
+    <body itemprop="AboutPage"
+          reviewedBy="Lucien Cartier-Tilet"
+          relatedLink="https://phundrak.com/en"
+          author="Lucien Cartier-Tilet"
+          copyrightYear="2021"
+          breadcrumbs="https://phundrak.com">
         <div class="ribbon">
             <div class="header-container">
-                <h1>Lucien Cartier-Tilet</h1>
+                <h1 itemprop="Person"
+                    birthDate="1995-09-25"
+                    email="lucien@phundrak.com"
+                    gender="male"
+                    nationality="France"
+                    image="https://cdn.phundrak.com/img/photo-de-ma-gueule.jpg"
+                    url="https://phundrak.com">
+                    Lucien Cartier-Tilet
+                </h1>
                 <div class="highlight-h1"></div>
             </div>
             <div>
                 <div class="header-container">
-                    <h2>Étudiant Informatique</h2>
+                    <h2 itemprop="Occupation">
+                        Étudiant Informatique
+                    </h2>
                     <div class="highlight-h2"></div>
                 </div>
             </div>
-            <ul class="ribbon-links">
-                <li><a href="#cont-xp">Expérience</a></li>
-                <li><a href="#cont-skills">Compétences</a></li>
-                <li><a href="#cont-training">Formations</a></li>
-                <li><a href="#cont-portfolio">Portfolio</a></li>
-                <li><a href="#cont-hobbies">Loisirs</a></li>
-                <li><a href="https://phundrak.com/en" lang="en">English Version</a></li>
+            <ul class="ribbon-links" itemprop="Menu">
+                <li itemprop="MenuSection"><a href="#cont-xp">Expérience</a></li>
+                <li itemprop="MenuSection"><a href="#cont-skills">Compétences</a></li>
+                <li itemprop="MenuSection"><a href="#cont-training">Formations</a></li>
+                <li itemprop="MenuSection"><a href="#cont-portfolio">Portfolio</a></li>
+                <li itemprop="MenuSection"><a href="#cont-hobbies">Loisirs</a></li>
+                <li itemprop="MenuSection"><a href="https://phundrak.com/en" lang="en">English Version</a></li>
             </ul>
         </div>
         <div class="sidebar">
@@ -94,13 +109,13 @@
                 </div>
                 <div class="side-content">
                     <ul class="side-links">
-                        <li><a href="https://blog.phundrak.com/">Blog</a></li>
-                        <li><a href="https://labs.phundrak.com/phundrak">Instance Gitea</a></li>
-                        <li><a href="https://github.com/phundrak">Github</a></li>
-                        <li><a href="https://langue.phundrak.com/">Site de linguistique</a></li>
-                        <li><a href="https://twitter.com/phundrak">Twitter</a></li>
-                        <li><a href="https://youtube.com/phundrak">YouTube</a></li>
-                        <li><a href="https://instagram.com/phundrak">Instagram</a></li>
+                        <li itemprop="WebPage"><a href="https://blog.phundrak.com/">Blog</a></li>
+                        <li itemprop="WebPage"><a href="https://labs.phundrak.com/phundrak">Instance Gitea</a></li>
+                        <li itemprop="WebPage"><a href="https://github.com/phundrak">Github</a></li>
+                        <li itemprop="WebPage"><a href="https://langue.phundrak.com/">Site de linguistique</a></li>
+                        <li itemprop="WebPage"><a href="https://twitter.com/phundrak">Twitter</a></li>
+                        <li itemprop="WebPage"><a href="https://youtube.com/phundrak">YouTube</a></li>
+                        <li itemprop="WebPage"><a href="https://instagram.com/phundrak">Instagram</a></li>
                     </ul>
                 </div>
             </div>
@@ -114,17 +129,27 @@
                 <ul>
                     <li class="list-lvl1 card card-lvl2">
                         <div class="header-container">
-                            <h4>Directeur Technique, Développeur</h4>
+                            <h4 itemprop="Occupation">Directeur Technique, Développeur</h4>
                             <div class="highlight-h4"></div>
                         </div>
                         <ul class="list-no-style">
                             <li>
                                 <div class="header-container">
-                                    <h5>VoxWave</h5>
+                                    <h5 itemprop="organization"
+                                        logalName="VoxWave"
+                                        address="14 RUE J.A. CHEVRIER 77250 MORET-LOING-ET-ORVANNE"
+                                        brand="ALYS"
+                                        founders="Lucien Cartier-Tilet, Cyrielle Collignon, Axelle Adnet">
+                                        VoxWave
+                                    </h5>
                                     <div class="highlight-h5"></div>
                                 </div>
 
-                                <p>Septembre 2012 à Juillet 2018</p>
+                                <p itemprop="Date"
+                                   startDate="2021-09-01"
+                                   endDate="2018-07-31">
+                                    Septembre 2012 à Juillet 2018
+                                </p>
                                 <ul class="two-col-ul">
                                     <li>Programmation de voix de synthèse</li>
                                     <li>Recherches linguistiques</li>
@@ -277,7 +302,7 @@
                                     <div class="highlight-h5"></div>
                                 </div>
 
-                                <p>Des exemples peuvent être trouvés <a href="https://langue.phundrak.com">sur mon site de linguistique</a>.</p>
+                                <p>Des exemples peuvent être trouvés <a itemprop="WebPage" href="https://langue.phundrak.com">sur mon site de linguistique</a>.</p>
                             </li>
                             <li>
                                 <div class="header-container">
@@ -381,8 +406,8 @@
                         </div>
                         <p>Fichiers de configuration de mon installation Arch Linux. Je vise un taux de 100% de fichiers de configuration rédigés en programmation littéraire. Ceux déjà rédigés ainsi sont disponibles via le lien ci-dessous, et la totalité des fichiers sont contenus dans le lien source ci-dessous.</p>
                         <p>
-                            <a class="port-proj-link" href="https://phundrak.com/config">(lien)</a>
-                            <a class="port-proj-src" href="https://labs.phundrak.com/phundrak/dotfiles">(source)</a></p>
+                            <a itemprop="WebPage" class="port-proj-link" href="https://phundrak.com/config">(lien)</a>
+                            <a itemprop="WebPage" class="port-proj-src" href="https://labs.phundrak.com/phundrak/dotfiles">(source)</a></p>
                     </li>
                     <li class="list-lvl1 card card-lvl2">
                         <div class="header-container">
@@ -391,8 +416,8 @@
                         </div>
                         <p>Crate (bibliothèque) Rust permettant l’activation des caractères échapés ANSI dans les shells CMD et PowerShell de Windows.</p>
                         <p>
-                            <a class="port-proj-link" href="https://crates.io/crates/output_vt100">(lien)</a>
-                            <a class="port-proj-src" href="https://labs.phundrak.com/phundrak/output-vt100-rs">(source)</a></p>
+                            <a itemprop="WebPage" class="port-proj-link" href="https://crates.io/crates/output_vt100">(lien)</a>
+                            <a itemprop="WebPage" class="port-proj-src" href="https://labs.phundrak.com/phundrak/output-vt100-rs">(source)</a></p>
                     </li>
                     <li class="list-lvl1 card card-lvl2">
                         <div class="header-container">
@@ -401,7 +426,7 @@
                         </div>
                         <p>Dictionnaire bilingue en ligne entre langues naturelles et langues construites, le serveur est codé en Python basé sur Django&nbsp;2.</p>
                         <p>
-                            <a class="port-proj-src" href="https://labs.phundrak.com/phundrak/dictionary-conlangs">(source)</a></p>
+                            <a itemprop="WebPage" class="port-proj-src" href="https://labs.phundrak.com/phundrak/dictionary-conlangs">(source)</a></p>
                     </li>
                     <li class="list-lvl1 card card-lvl2">
                         <div class="header-container">
