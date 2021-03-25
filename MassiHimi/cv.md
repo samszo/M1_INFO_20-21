@@ -25,7 +25,7 @@
 
  *Figure 2:*   cette figure représente les différents liens entre les mots,notament les liens entre les mots les plus fréquents **Bleu** avec d'autres moins fréquants **orange**  
  
-![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/VT_img1.png)  
+![](https://github.com/samszo/M1_INFO_20-21/blob/main/MassiHimi/img/lien-image.png)  
 
 
 
