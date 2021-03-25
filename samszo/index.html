@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI Info 20-21 : Travux Etudiants</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <style>
-        iframe {
-            height: 600px;
-            width: 100%;
-        }
-    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MI Info 20-21 : Travux Etudiants</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <style>
+         iframe {
+             height: 600px;
+             width: 100%;
+         }
+         body {
+             color: #454545;
+             background: #e0e0e0;
+             max-width: 1000px;
+             margin: 0 auto;
+         }
 
-</head>
-<body>
-<div id="tabEtu"></div>
-<script>
+         #tabEtu div {
+             border-radius: 11px;
+             margin: 50px 0;
+             padding: 30px;
+             background: #e0e0e0;
+             box-shadow:  30px 30px 60px #bebebe,
+             -30px -30px 60px #ffffff;
+         }
 
-    let urlCSV = "M1Info.csv";
-    urlCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQHni5Lu--I9WKTWGHOJ3_SBRW47sPTvxxRN6FOaGchhMztr4gm3I5C91EJq1CcGOsmfsOfa2f7PfrF/pub?gid=1084269913&single=true&output=csv";
-    d3.csv(urlCSV).then(function(data) {
-        //console.log("csv récupéré");
-        console.log(data);
-        let divEtu = d3.select("#tabEtu").selectAll('div').data(data).enter().append('div');
-        divEtu.append('h2').html(d=>d['Votre prénom']+' '+d['Votre nom']);
-        divEtu.append('br');
-        divEtu.append('iframe').attr('src',d=>{
-            let url = "https://samszo.github.io/M1_INFO_20-21/"+d['Votre compte GitHub']+'/cv.html';
-            return url;
-        });
-        
-    });
-    console.log("Fait autre chose");
+         h2 {
+             text-align: center;
+         }
+        </style>
+
+    </head>
+    <body>
+        <div id="tabEtu"></div>
+        <script>
+
+         let urlCSV = "M1Info.csv";
+         urlCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQHni5Lu--I9WKTWGHOJ3_SBRW47sPTvxxRN6FOaGchhMztr4gm3I5C91EJq1CcGOsmfsOfa2f7PfrF/pub?gid=1084269913&single=true&output=csv";
+         d3.csv(urlCSV).then(function(data) {
+             //console.log("csv récupéré");
+             console.log(data);
+             let divEtu = d3.select("#tabEtu").selectAll('div').data(data).enter().append('div');
+             divEtu.append('h2').html(d=>d['Votre prénom']+' '+d['Votre nom']);
+             //divEtu.append('br');
+             divEtu.append('iframe').attr('src',d=>{
+                 let url = "https://samszo.github.io/M1_INFO_20-21/"+d['Votre compte GitHub']+'/cv.html';
+                 return url;
+             });
+
+         });
+         console.log("Fait autre chose");
 
 
-</script>    
+        </script>
 
-</body>
+    </body>
 </html>
