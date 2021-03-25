@@ -1,0 +1,156 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix cv: <https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/cv.html/cv#> .
+
+
+<https://samszo.github.io/M1_INFO_20-21/rajalamgarmel/cv.html/cv#> a owl:Ontology ;
+    dcterms:title "CV LAMGARMEL Raja" .
+
+cv:CV a rdfs:Class ;
+    rdfs:label "Curriculum Vitae" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:Person a rdfs:Class ;
+    rdfs:label "Person" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:firstName a rdfs:Property ;
+    rdfs:label "firstName" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:phone a rdfs:Property ;
+    rdfs:label "phone" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:mbox a rdfs:Property ;
+    rdfs:label "email" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:adresse a rdfs:Property ;
+    rdfs:label "adresse" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:city a rdfs:Property ;
+    rdfs:label "city" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:postal a rdfs:Property ;
+    rdfs:label "email" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:country a rdfs:Property ;
+    rdfs:label "country" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:Education a rdfs:class ;
+    rdfs:label "Education" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:studiedIn a rdfs:Property ;
+    rdfs:label "studiedIn" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:eduStartDate rdfs:Property ;
+    rdfs:label "eduStartDate" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:eduGradDate a rdfs:Property ;
+    rdfs:label "eduGradDate" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:degreeType a rdfs:Property ;
+    rdfs:label "degreeType" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:eduDescription a rdfs:Property ;
+    rdfs:label "eduDescription" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:WorkHistory a rdfs:class ;
+    rdfs:label "WorkHistory" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:employedIn a rdfs:Property ;
+    rdfs:label "employedIn" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:startDate rdfs:Property ;
+    rdfs:label "startDate" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:endDate a rdfs:Property ;
+    rdfs:label "endDate" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:jobTitle a rdfs:Property ;
+    rdfs:label "jobTitle" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:jobDescription a rdfs:Property ;
+    rdfs:label "jobDescription" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:isCurrent a rdfs:Property ;
+    rdfs:label "isCurrent" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:Skill a rdfs:class ;
+    rdfs:label "Skill" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:skillName a rdfs:Property ;
+    rdfs:label "skillName" ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:skillLevel rdfs:Property ;
+    rdfs:label "skillLevel" ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:skillYearsExperience a rdfs:Property ;
+    rdfs:label "skillYearsExperience" ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:OtherInfo a rdfs:class ;
+    rdfs:label "OtherInfo" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:otherInfoType a rdfs:Property ;
+    rdfs:label "otherInfoType" ;
+    rdfs:domain cv:OtherInfo ;
+    vs:term_status "experimental" .
+
+cv:otherInfoDescription a rdfs:Property ;
+    rdfs:label "otherInfoDescription" ;
+    rdfs:domain cv:OtherInfo ;
+    vs:term_status "experimental" .
