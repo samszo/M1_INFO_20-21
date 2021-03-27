@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix o: <http://omeka.org/s/vocabs/o#>
+@prefix o: <http://omeka.org/s/vocabs/o#> .
 
 @prefix cv: <https://mahou-iryoku.github.io/TRAN_Vincent/cv.html>#
    dcterms:title: "CV TRAN Vincent"
