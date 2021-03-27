@@ -1,0 +1,132 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix o: <http://omeka.org/s/vocabs/o#>
+
+@prefix cv: <https://mahou-iryoku.github.io/TRAN_Vincent/cv.html>#
+   dcterms:title: "CV TRAN Vincent"
+
+
+cv:Profil a rdfs:Class ;
+    rdfs:label "Profil" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:firstName a rdfs:Property ;
+    rdfs:label "firstName" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:lastName a rdfs:Property ;
+    rdfs:label "lastName" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:address a rdfs:Property ;
+    rdfs:label "address" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:city a rdfs:Property ;
+    rdfs:label "city" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:contact a rdfs:Property ;
+    rdfs:label "contact" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:Education a rdfs:Class ;
+    rdfs:label "Education" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:typeDegree a rdfs:Property ;
+    rdfs:label "typeDegree" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:eduDateStart a rdfs:Property ;
+    rdfs:label "eduDateStart" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:eduDateEnd a rdfs:Property ;
+    rdfs:label "eduDateEnd" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:Experience a rdfs:Class ;
+    rdfs:label "Experience" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:expDateStart a rdfs:Property ;
+    rdfs:label "expDateStart" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:expDateEnd a rdfs:Property ;
+    rdfs:label "expDateStart" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:nameCompany a rdfs:Property ;
+    rdfs:label "namecompany" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:placeCompany a rdfs:Property ;
+    rdfs:label "placeCompany" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+
+cv:jobDescription a rdfs:Property ;
+    rdfs:label "expDescription" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:Skill a rdfs:Class ;
+    rdfs:label "Skill" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:languageskills a rdfs:Property ;
+    rdfs:label "languageskills" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+ 
+cv:levelskills a rdfs:Property ;
+    rdfs:label "levelskills" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:softskills a rdfs:Property ;
+    rdfs:label "softskills" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .  
+    
+cv:Project a rdfs:Class ;
+    rdfs:label "Project" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:projectName a rdfs:Property ;
+    rdfs:label "projectName" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:projectDate a rdfs:Property ;
+    rdfs:label "projectDate" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+cv:projectDescription a rdfs:Property ;
+    rdfs:label "projectDescription" ;
+    rdfs:domain o:Resource;
+    vs:term_status "experimental" .
+    
+
