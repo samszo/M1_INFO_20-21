@@ -8,7 +8,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dita\/ns#experiencelevel",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "expDateStart",
             "label": "expDateStart"
@@ -20,7 +20,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dita\/ns#experiencelevel\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "expDateEnd",
             "label": "expDateEnd"
@@ -32,10 +32,10 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/ns\/regorg#orgType\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "nameCompany",
-            "label": "namecompany"
+            "label": "company"
         },
         {
             "o:alternate_label": null,
@@ -44,10 +44,10 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/ns\/regorg#orgType\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "placeCompany",
-            "label": "placeCompany"
+            "label": "company"
         },
         {
             "o:alternate_label": null,
@@ -56,14 +56,14 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/linkingyou\/jobs",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "jobDescription",
-            "label": "jobDescription"
+            "label": "job"
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+        "vocabulary_namespace_uri": "http:\/\/ns.inria.fr\/ludo\/v1\/xapi#xAPI",
         "vocabulary_label": "CV TRAN Vincent",
         "local_name": "Experience",
         "label": "Experience"
