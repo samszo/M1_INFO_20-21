@@ -8,7 +8,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https=:\/\/www.ontotext.com\/proton\/protontop#firstName",
+            "vocabulary_namespace_uri": "https:\/\/www.ontotext.com\/proton\/protontop#firstName",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "firstName",
             "label": "firstName"
