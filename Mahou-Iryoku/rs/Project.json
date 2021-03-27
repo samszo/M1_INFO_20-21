@@ -1,0 +1,47 @@
+{
+    "o:label": "Project",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "projectName",
+            "label": "projectName"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "projectDate",
+            "label": "projectDate"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "projectDescription",
+            "label": "projectDescription"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+        "vocabulary_label": "CV TRAN Vincent",
+        "local_name": "Project",
+        "label": "Project"
+    }
+}

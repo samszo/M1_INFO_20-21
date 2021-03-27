@@ -1,0 +1,71 @@
+{
+    "o:label": "Experience",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "expDateStart",
+            "label": "expDateStart"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "expDateEnd",
+            "label": "expDateEnd"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "nameCompany",
+            "label": "namecompany"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "placeCompany",
+            "label": "placeCompany"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "jobDescription",
+            "label": "jobDescription"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+        "vocabulary_label": "CV TRAN Vincent",
+        "local_name": "Experience",
+        "label": "Experience"
+    }
+}
