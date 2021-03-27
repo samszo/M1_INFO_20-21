@@ -8,7 +8,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc/terms\/language\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "languageskills",
             "label": "languageskills"
@@ -20,7 +20,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "https:\/\/w3id.org\/ timebank#hasSkillLevel\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "levelskills",
             "label": "levelskills"
@@ -32,14 +32,14 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "https:\/\/w3id.org\/timebank#requiresSkill\/",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "softskills",
             "label": "softskills"
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+        "vocabulary_namespace_uri": "https:\/\/w3id.org\/timebank#Skill\/",
         "vocabulary_label": "CV TRAN Vincent",
         "local_name": "Skill",
         "label": "Skill"
