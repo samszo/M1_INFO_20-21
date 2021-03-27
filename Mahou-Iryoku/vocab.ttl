@@ -121,7 +121,12 @@ cv:projectName a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-cv:projectDate a rdf:Property ;
+cv:projectDateStart a rdf:Property ;
+    rdfs:label "projectDate" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:projectDateEnd a rdf:Property ;
     rdfs:label "projectDate" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
