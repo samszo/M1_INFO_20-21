@@ -47,7 +47,7 @@ cv:Education a rdfs:Class ;
     vs:term_status "experimental" .
     
 cv:typeDegree a rdf:Property ;
-    rdfs:label "typeDegree" ;
+    rdfs:label "nameDegree" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
