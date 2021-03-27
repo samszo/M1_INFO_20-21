@@ -8,7 +8,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "https=:\/\/www.ontotext.com\/proton\/protontop#firstName",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "firstName",
             "label": "firstName"
@@ -20,7 +20,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/mwww.ontotext.com\/proton\/protontop#lastName",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "lastName",
             "label": "lastName"
@@ -32,7 +32,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2006\/vcard\/ns#street-address",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "address",
             "label": "address"
@@ -44,7 +44,7 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2000\/10\/swap\/pim\/contact#preferredURI",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "contact",
             "label": "contact"
@@ -56,14 +56,14 @@
             "o:is_private": false,
             "data_type_name": null,
             "data_type_label": null,
-            "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+            "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/city",
             "vocabulary_label": "CV TRAN Vincent",
             "local_name": "city",
             "label": "city"
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "https:\/\/mahou-iryoku.github.io\/",
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/wai#Profile",
         "vocabulary_label": "CV TRAN Vincent",
         "local_name": "Profil",
         "label": "Profil"
