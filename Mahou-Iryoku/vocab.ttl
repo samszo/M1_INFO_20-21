@@ -14,122 +14,122 @@
 
 cv:Profil a rdfs:Class ;
     rdfs:label "Profil" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:firstName a rdf:Property ;
     rdfs:label "firstName" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:lastName a rdf:Property ;
     rdfs:label "lastName" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:address a rdf:Property ;
     rdfs:label "address" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:city a rdf:Property ;
     rdfs:label "city" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:contact a rdf:Property ;
     rdfs:label "contact" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:Education a rdfs:Class ;
     rdfs:label "Education" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:typeDegree a rdf:Property ;
     rdfs:label "typeDegree" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:eduDateStart a rdf:Property ;
     rdfs:label "eduDateStart" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:eduDateEnd a rdf:Property ;
     rdfs:label "eduDateEnd" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:Experience a rdfs:Class ;
     rdfs:label "Experience" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:expDateStart a rdf:Property ;
     rdfs:label "expDateStart" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:expDateEnd a rdf:Property ;
     rdfs:label "expDateEnd" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-cv:nameCompany a rdf:Proper			ty ;
+cv:nameCompany a rdf:Property ;
     rdfs:label "namecompany" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:placeCompany a rdf:Property ;
     rdfs:label "placeCompany" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 cv:jobDescription a rdf:Property ;
     rdfs:label "jobDescription" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:Skill a rdfs:Class ;
     rdfs:label "Skill" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:languageskills a rdf:Property ;
     rdfs:label "languageskills" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
  
 cv:levelskills a rdf:Property ;
     rdfs:label "levelskills" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:softskills a rdf:Property ;
     rdfs:label "softskills" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .  
     
 cv:Project a rdfs:Class ;
     rdfs:label "Project" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:projectName a rdf:Property ;
     rdfs:label "projectName" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:projectDate a rdf:Property ;
     rdfs:label "projectDate" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 cv:projectDescription a rdf:Property ;
     rdfs:label "projectDescription" ;
-    rdfs:domain o:Resource;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
 
