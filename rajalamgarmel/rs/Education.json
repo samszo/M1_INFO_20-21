@@ -1,0 +1,121 @@
+{
+    "o:label": "Education",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Type de diplome ",
+            "o:alternate_comment": "Type de diplome ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+            "vocabulary_label": "Bibliographic Ontology",
+            "local_name": "degree",
+            "label": "degree"
+        },
+        {
+            "o:alternate_label": "Nom de la formation",
+            "o:alternate_comment": "Nom de la formation",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Description de la formation",
+            "o:alternate_comment": "Description de la formation",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "Nom de l'\u00e9cole ou de l'universit\u00e9 ",
+            "o:alternate_comment": "Nom de l'\u00e9cole ou de l'universit\u00e9 ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "name",
+            "label": "name"
+        },
+        {
+            "o:alternate_label": "Les qualifications de la formation",
+            "o:alternate_comment": "Les qualifications de la formation",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "qualifications",
+            "label": "qualifications"
+        },
+        {
+            "o:alternate_label": "Date d\u00e9but",
+            "o:alternate_comment": "Date d\u00e9but",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "startDate",
+            "label": "startDate"
+        },
+        {
+            "o:alternate_label": "Date de fin de la formation",
+            "o:alternate_comment": "Date de fin de la formation",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "endDate",
+            "label": "endDate"
+        },
+        {
+            "o:alternate_label": "Ville de l'\u00e9cole ou de l'universit\u00e9",
+            "o:alternate_comment": "Ville de l'\u00e9cole ou de l'universit\u00e9",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressLocality",
+            "label": "addressLocality"
+        },
+        {
+            "o:alternate_label": "R\u00e9gion de l'\u00e9cole ou de l'universit\u00e9",
+            "o:alternate_comment": "R\u00e9gion de l'\u00e9cole ou de l'universit\u00e9",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressRegion",
+            "label": "addressRegion"
+        },
+        {
+            "o:alternate_label": "Pays de l'\u00e9cole ou de l'universit\u00e9",
+            "o:alternate_comment": "Pays de l'\u00e9cole ou de l'universit\u00e9",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressCountry",
+            "label": "addressCountry"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}

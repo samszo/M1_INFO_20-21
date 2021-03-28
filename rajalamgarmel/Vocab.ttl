@@ -25,33 +25,38 @@ cv:firstName a rdfs:Property ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
+cv:birthDate a rdfs:Property ;
+    rdfs:label "birthDate" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
 cv:phone a rdfs:Property ;
     rdfs:label "phone" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
-cv:mbox a rdfs:Property ;
+cv:email a rdfs:Property ;
     rdfs:label "email" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
-cv:adresse a rdfs:Property ;
-    rdfs:label "adresse" ;
+cv:streetAddress a rdfs:Property ;
+    rdfs:label "streetAddress" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
-cv:city a rdfs:Property ;
-    rdfs:label "city" ;
+cv:addressLocality a rdfs:Property ;
+    rdfs:label "addressLocality" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
-cv:postal a rdfs:Property ;
-    rdfs:label "email" ;
+cv:addressRegion a rdfs:Property ;
+    rdfs:label "addressRegion" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
-cv:country a rdfs:Property ;
-    rdfs:label "country" ;
+cv:addressCountry a rdfs:Property ;
+    rdfs:label "addressCountry" ;
     rdfs:domain cv:Person ;
     vs:term_status "experimental" .
 
@@ -60,63 +65,88 @@ cv:Education a rdfs:class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cv:studiedIn a rdfs:Property ;
-    rdfs:label "studiedIn" ;
+cv:degree a rdfs:Property ;
+    rdfs:label "Type de diplome" ;
     rdfs:domain cv:Education ;
     vs:term_status "experimental" .
 
-cv:eduStartDate rdfs:Property ;
-    rdfs:label "eduStartDate" ;
+cv:Title rdfs:Property ;
+    rdfs:label "Nom de la formation" ;
     rdfs:domain cv:Education ;
     vs:term_status "experimental" .
 
-cv:eduGradDate a rdfs:Property ;
-    rdfs:label "eduGradDate" ;
+cv:Description a rdfs:Property ;
+    rdfs:label "Description" ;
     rdfs:domain cv:Education ;
     vs:term_status "experimental" .
 
-cv:degreeType a rdfs:Property ;
-    rdfs:label "degreeType" ;
+cv:name a rdfs:Property ;
+    rdfs:label "Nom de l'école ou de l'université " ;
     rdfs:domain cv:Education ;
     vs:term_status "experimental" .
 
-cv:eduDescription a rdfs:Property ;
-    rdfs:label "eduDescription" ;
+cv:qualifications a rdfs:Property ;
+    rdfs:label "Les qualifications de la formation" ;
     rdfs:domain cv:Education ;
     vs:term_status "experimental" .
 
-cv:WorkHistory a rdfs:class ;
-    rdfs:label "WorkHistory" ;
+cv:startDate a rdfs:Property ;
+    rdfs:label "Date début" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:endDate a rdfs:Property ;
+    rdfs:label "Date de fin de la formation" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:addressLocality a rdfs:Property ;
+    rdfs:label "Ville de l'école ou de l'université" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:addressRegion a rdfs:class ;
+    rdfs:label "Région de l'école ou de l'université" ;
+    rdfs:domain o:Education ;
+    vs:term_status "experimental" .
+
+cv:addressCountry a rdfs:Property ;
+    rdfs:label "Pays de l'école ou de l'université" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:Experience a rdfs:class ;
+    rdfs:label "Experience" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cv:employedIn a rdfs:Property ;
-    rdfs:label "employedIn" ;
+cv:jobTitle rdfs:Property ;
+    rdfs:label "Titre de poste ou de stage" ;
     rdfs:domain cv:WorkHistory ;
     vs:term_status "experimental" .
 
-cv:startDate rdfs:Property ;
-    rdfs:label "startDate" ;
+cv:Description a rdfs:Property ;
+    rdfs:label "Description du poste" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:jobLocation a rdfs:Property ;
+    rdfs:label "Addresse de l'entreprise" ;
+    rdfs:domain cv:WorkHistory ;
+    vs:term_status "experimental" .
+
+cv:jobStartDate a rdfs:Property ;
+    rdfs:label "Date debut de stage ou d'emploi" ;
     rdfs:domain cv:WorkHistory ;
     vs:term_status "experimental" .
 
 cv:endDate a rdfs:Property ;
-    rdfs:label "endDate" ;
+    rdfs:label "Date de fin" ;
     rdfs:domain cv:WorkHistory ;
     vs:term_status "experimental" .
 
-cv:jobTitle a rdfs:Property ;
-    rdfs:label "jobTitle" ;
-    rdfs:domain cv:WorkHistory ;
-    vs:term_status "experimental" .
-
-cv:jobDescription a rdfs:Property ;
-    rdfs:label "jobDescription" ;
-    rdfs:domain cv:WorkHistory ;
-    vs:term_status "experimental" .
-
-cv:isCurrent a rdfs:Property ;
-    rdfs:label "isCurrent" ;
+cv:jobBenefits a rdfs:Property ;
+    rdfs:label "Les bénéfices de poste" ;
     rdfs:domain cv:WorkHistory ;
     vs:term_status "experimental" .
 
@@ -125,32 +155,43 @@ cv:Skill a rdfs:class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cv:skillName a rdfs:Property ;
-    rdfs:label "skillName" ;
+cv:Title a rdfs:Property ;
+    rdfs:label "Titre du compétence " ;
     rdfs:domain cv:Skill ;
     vs:term_status "experimental" .
 
-cv:skillLevel rdfs:Property ;
-    rdfs:label "skillLevel" ;
+cv:Description rdfs:Property ;
+    rdfs:label "Description du compétence" ;
     rdfs:domain cv:Skill ;
     vs:term_status "experimental" .
 
-cv:skillYearsExperience a rdfs:Property ;
-    rdfs:label "skillYearsExperience" ;
+cv:educationalLevel a rdfs:Property ;
+    rdfs:label "Le niveau de compétence" ;
     rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:Langage a rdfs:class ;
+    rdfs:label "LANGAGE" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:Title a rdfs:Property ;
+    rdfs:label "Nom de la langue" ;
+    rdfs:domain cv:OtherInfo ;
+    vs:term_status "experimental" .
+
+cv:knowsLanguage a rdfs:Property ;
+    rdfs:label "niveau de maîtrise de la langue" ;
+    rdfs:domain cv:OtherInfo ;
     vs:term_status "experimental" .
 
 cv:OtherInfo a rdfs:class ;
     rdfs:label "OtherInfo" ;
-    rdfs:domain o:Resource ;
+    rdfs:domain o:OtherInfo ;
     vs:term_status "experimental" .
 
-cv:otherInfoType a rdfs:Property ;
-    rdfs:label "otherInfoType" ;
+cv:topic_interest a rdfs:Property ;
+    rdfs:label "centres d'intérêt " ;
     rdfs:domain cv:OtherInfo ;
     vs:term_status "experimental" .
 
-cv:otherInfoDescription a rdfs:Property ;
-    rdfs:label "otherInfoDescription" ;
-    rdfs:domain cv:OtherInfo ;
-    vs:term_status "experimental" .

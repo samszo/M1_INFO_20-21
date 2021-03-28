@@ -1,0 +1,126 @@
+{
+    "o:label": "Profil",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Titre CV",
+            "o:alternate_comment": "Le titre du CV",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Nom",
+            "o:alternate_comment": "Le nom ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "firstName",
+            "label": "firstName"
+        },
+        {
+            "o:alternate_label": "Pr\u00e9nom ",
+            "o:alternate_comment": "Pr\u00e9nom",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "lastName",
+            "label": "lastName"
+        },
+        {
+            "o:alternate_label": "Date d'anniversaire",
+            "o:alternate_comment": "La Date d'anniversaire",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "birthDate",
+            "label": "birthDate"
+        },
+        {
+            "o:alternate_label": "Num\u00e9ro de t\u00e9l\u00e9phone",
+            "o:alternate_comment": "Le num\u00e9ro de t\u00e9l\u00e9phone",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "phone",
+            "label": "phone"
+        },
+        {
+            "o:alternate_label": "Email",
+            "o:alternate_comment": "Address Email",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "email",
+            "label": "email"
+        },
+        {
+            "o:alternate_label": "Rue",
+            "o:alternate_comment": "Rue",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "streetAddress",
+            "label": "streetAddress"
+        },
+        {
+            "o:alternate_label": "Ville",
+            "o:alternate_comment": "Ville",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressLocality",
+            "label": "addressLocality"
+        },
+        {
+            "o:alternate_label": "R\u00e9gion",
+            "o:alternate_comment": "R\u00e9gion",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressRegion",
+            "label": "addressRegion"
+        },
+        {
+            "o:alternate_label": "Pays",
+            "o:alternate_comment": "Pays",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "addressCountry",
+            "label": "addressCountry"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}

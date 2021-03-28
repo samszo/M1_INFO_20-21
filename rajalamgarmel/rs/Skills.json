@@ -1,0 +1,44 @@
+{
+    "o:label": "Skills",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Titre du comp\u00e9tence ",
+            "o:alternate_comment": "Titre du comp\u00e9tence",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Description du comp\u00e9tence",
+            "o:alternate_comment": "Description du comp\u00e9tence",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "Le niveau de comp\u00e9tence",
+            "o:alternate_comment": "Le niveau de comp\u00e9tence",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "educationalLevel",
+            "label": "educationalLevel"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}
