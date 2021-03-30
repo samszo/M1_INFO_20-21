@@ -1,0 +1,33 @@
+{
+    "o:label": "Langage",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Nom de la langue",
+            "o:alternate_comment": "Nom de la langue",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "niveau de ma\u00eetrise",
+            "o:alternate_comment": "niveau de ma\u00eetrise",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "knowsLanguage",
+            "label": "knowsLanguage"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "o:label": "OtherInfo",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "centres d'int\u00e9r\u00eat ",
+            "o:alternate_comment": "centres d'int\u00e9r\u00eat ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "topic_interest",
+            "label": "topic_interest"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}

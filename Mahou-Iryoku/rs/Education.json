@@ -1,0 +1,47 @@
+{
+    "o:label": "Education",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/degree",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "nameDegree",
+            "label": "nameDegree"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/educationLevel",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "eduDateStart",
+            "label": "eduDateStart"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/educationLevel",
+            "vocabulary_label": "CV TRAN Vincent",
+            "local_name": "eduDateEnd",
+            "label": "eduDateEnd"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/pw3id.org\/skgo\/modsci#Education",
+        "vocabulary_label": "CV TRAN Vincent",
+        "local_name": "Education",
+        "label": "Education"
+    }
+}

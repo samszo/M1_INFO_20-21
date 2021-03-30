@@ -1,0 +1,77 @@
+{
+    "o:label": "Experience",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Titre de poste ou de stage ",
+            "o:alternate_comment": "Titre de poste ou de stage ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "jobTitle",
+            "label": "jobTitle"
+        },
+        {
+            "o:alternate_label": "Description",
+            "o:alternate_comment": "Description",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "Addresse de l'entreprise ",
+            "o:alternate_comment": "Addresse de l'entreprise ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "jobLocation",
+            "label": "jobLocation"
+        },
+        {
+            "o:alternate_label": "Date debut de stage ou d'emploi",
+            "o:alternate_comment": "Date debut de stage ou d'emploi",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "jobStartDate",
+            "label": "jobStartDate"
+        },
+        {
+            "o:alternate_label": "Date de fin ",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "endDate",
+            "label": "endDate"
+        },
+        {
+            "o:alternate_label": "Les b\u00e9n\u00e9fices de poste",
+            "o:alternate_comment": "Les b\u00e9n\u00e9fices de poste",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "schema",
+            "local_name": "jobBenefits",
+            "label": "jobBenefits"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "schema",
+        "local_name": "Person",
+        "label": "Person"
+    }
+}
