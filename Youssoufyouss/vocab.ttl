@@ -1,37 +1,4 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix o: <http://omeka.org/s/vocabs/o#> .
-
-@prefix skills: <https://https://samszo.github.io/M1_INFO_20-21/Youssoufyouss/cv.html/> .
-
-<https://github.com/samszo/M1_INFO_20-21/blob/main/Youssoufyouss/vocab.ttl> a owl:Ontology;
-    dcterms:title "CV Youssouf Dabo" .
-
-exp:Experience a rdfs:Class ;
-    rdfs:label "Experience" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-exp:poste a rdf:Property ;
-    rdfs:label "Poste" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-skills:Skills a rdfs:Class ;
-    rdfs:label "Competence" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-skills:Language a rdf:Property ;
-    rdfs:label "Langue" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 
@@ -134,4 +101,5 @@ cv:project a rdfs:Class ;
     rdfs:label "project" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
 
