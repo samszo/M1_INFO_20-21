@@ -1,0 +1,166 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix cv: <https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html/cv#> .
+
+
+<https://samszo.github.io/M1_INFO_20-21/hangngadhp19/cv.html/cv#> a owl:Ontology ;
+    dcterms:title "CV Nguyen Thi Hang Nga" .
+
+cv:CV a rdfs:Class ;
+    rdfs:label "Curriculum Vitae" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:Person a rdfs:Class ;
+    rdfs:label "Person" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:firstName a rdfs:Property ;
+    rdfs:label "firstName" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:lastname a rdfs:Property ;
+    rdfs:label "lastName" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:phone a rdfs:Property ;
+    rdfs:label "phone" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:email a rdfs:Property ;
+    rdfs:label "email" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:address a rdfs:Property ;
+    rdfs:label "address" ;
+    rdfs:domain cv:Person ;
+    vs:term_status "experimental" .
+
+cv:Education a rdfs:class ;
+    rdfs:label "Education" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:degree a rdfs:Property ;
+    rdfs:label "Type de diplome" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:Title a rdfs:Property ;
+    rdfs:label "Nom de la formation" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:Description a rdfs:Property ;
+    rdfs:label "Description" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:name a rdfs:Property ;
+    rdfs:label "Nom de l'école ou de l'université " ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:qualifications a rdfs:Property ;
+    rdfs:label "Les qualifications de la formation" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:startDate a rdfs:Property ;
+    rdfs:label "Date début" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:endDate a rdfs:Property ;
+    rdfs:label "Date de fin de la formation" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:address a rdfs:Property ;
+    rdfs:label "Address de l'école ou de l'université" ;
+    rdfs:domain cv:Education ;
+    vs:term_status "experimental" .
+
+cv:Experience a rdfs:class ;
+    rdfs:label "Experience" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:jobTitle a rdfs:Property ;
+    rdfs:label "Titre de poste ou de stage" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:Description a rdfs:Property ;
+    rdfs:label "Description du poste" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:jobLocation a rdfs:Property ;
+    rdfs:label "Addresse de l'entreprise" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:jobStartDate a rdfs:Property ;
+    rdfs:label "Date debut de stage ou d'emploi" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:endDate a rdfs:Property ;
+    rdfs:label "Date de fin" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:jobMission a rdfs:Property ;
+    rdfs:label "Les mission de poste" ;
+    rdfs:domain cv:Experience ;
+    vs:term_status "experimental" .
+
+cv:Skill a rdfs:class ;
+    rdfs:label "Skill" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:Title a rdfs:Property ;
+    rdfs:label "Titre du compétence " ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:Description a rdfs:Property ;
+    rdfs:label "Description du compétence" ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:educationalLevel a rdfs:Property ;
+    rdfs:label "Le niveau de compétence" ;
+    rdfs:domain cv:Skill ;
+    vs:term_status "experimental" .
+
+cv:OtherInfo a rdfs:class ;
+    rdfs:label "LANGAGES" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cv:Title a rdfs:Property ;
+    rdfs:label "Nom de la langue" ;
+    rdfs:domain cv:OtherInfo ;
+    vs:term_status "experimental" .
+
+cv:knowsLanguage a rdfs:Property ;
+    rdfs:label "niveau de maîtrise de la langue" ;
+    rdfs:domain cv:OtherInfo ;
+    vs:term_status "experimental" .
+
+
